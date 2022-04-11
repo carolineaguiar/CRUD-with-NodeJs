@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const projects = [];
+const projects = []; 
 
 function logRouts(request, response, next) {
     const { method, url } = request;
